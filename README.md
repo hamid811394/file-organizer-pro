@@ -26,13 +26,18 @@ Packaging: PyInstaller
 Installation
 
 Clone the repository:
-git clone https://github.com/<your-username>/<repo-name>.git
-cd <repo-name>
+git clone https://github.com/hamid811394/file-organizer-pro.git
+
 
 ⚠️ Python 3.8+ recommended.
 
 Install required dependencies:
 pip install -r requirements.txt
+
+▶️ Running the Application
+
+Simply run:
+python file_organizer.py
 
 🔐 Encryption Feature
 
@@ -52,5 +57,6 @@ Flag	Description
 
 After building, the .exe will be located in:
 dist/
+
 
 
