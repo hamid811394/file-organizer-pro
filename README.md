@@ -46,7 +46,7 @@ Files can be encrypted and decrypted using AES-256, ensuring data protection and
 🖥️ Build Windows Executable (.exe)
 
 To generate a standalone Windows executable using PyInstaller:
-pyinstaller -F -w -i icon.ico file_organizer.py
+Open CMD in the same Folder and past it "pyinstaller -F -w -i icon.ico file_organizer.py"
 
 📌 Meaning of the flags:
 
@@ -57,6 +57,7 @@ Flag	Description
 
 After building, the .exe will be located in:
 dist/
+
 
 
 
